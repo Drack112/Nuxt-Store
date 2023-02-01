@@ -10,6 +10,6 @@
 
 <style scoped>
 body {
-  --webkit-font-smoothing: antialised;
+  -webkit-font-smoothing: antialiased;
 }
 </style>
