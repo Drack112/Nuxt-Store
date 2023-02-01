@@ -24,7 +24,7 @@
                 delicious.</span
               >
             </p>
-            <Btn class="absolute md:-right-3 md:-bottom-3">Shop Now</Btn>
+            <Button class="absolute md:-right-3 md:-bottom-3">Shop Now</Button>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
         </div>
 
         <div class="flex justify-center mt-10">
-          <Btn theme="secondary">View all the sick wicks</Btn>
+          <Button theme="secondary">View all the sick wicks</Button>
         </div>
       </Container>
     </section>
@@ -65,7 +65,7 @@ import HeaderBg from "assets/images/header-bg.jpg";
 const config = useRuntimeConfig();
 const { data: products } = await useFetch(
   () =>
-    `${config.public.apiBase}/products?pagination[start]=0&pagination[limit]=4&populate=*`
+    `${config.public.apiBase}/api/products?pagination[start]=0&pagination[limit]=4&populate=*`
 );
 </script>
 
