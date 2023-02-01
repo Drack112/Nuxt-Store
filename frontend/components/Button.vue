@@ -19,7 +19,7 @@ const classes = computed(() => {
     primary:
       "px-6 py-4 text-2xl font-bold text-white shadow-xl bg-brand-orange font-heading rounded-none",
     secondary:
-      "px-6 py-4 text-2xl font-bold text-brand-orange border border-3 font-heading rounded-none",
+      "px-6 py-4 text-2xl font-bold text-brand-orange border border-3 border-brand-orange font-heading rounded-none",
   };
 
   return themeClasses[props.theme];
