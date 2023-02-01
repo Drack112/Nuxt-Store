@@ -1,5 +1,5 @@
 <template>
-  <component :is="tag" v-bind="attrs" :class="classes">
+  <component :is="tag" v-bind="$attrs" :class="classes">
     <slot />
   </component>
 </template>
@@ -10,7 +10,7 @@ const props = defineProps({
   fontStyle: {
     type: String,
     required: false,
-    default: "h2",
+    default: "h1",
     validator: (value) => ["h1", "h2", "h3", "h4"].includes(value),
   },
   color: {
@@ -24,10 +24,9 @@ const classes = computed(() => {
   const styleClasses = {
     h1: "pb-2 text-5xl font-bold tracking-tighter font-heading leading-none",
     h2: "pb-2 text-4xl font-bold tracking-tighter font-heading leading-none",
-    h3: "text-xl font-extralight leading-none",
+    h3: "text-xl leading-none font-extralight",
     h4: "pb-2 text-3xl font-bold tracking-tighter font-heading leading-none",
   };
-
-  return `${styleClasses[props.fontStyle]} ${props.color}`;
+  return ` ${styleClasses[props.fontStyle]} ${props.color}`;
 });
 </script>
