@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100 shadow-xl aspect-w-1 aspect-h-1">
-    <img :src="imageURL" :alt="product.attributes.Title" loading="lazy" />
+    <img :src="imageUrl" :alt="product.attributes.Title" loading="lazy" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ const props = defineProps({
 });
 
 const config = useRuntimeConfig();
-const imageURL = computed(() => {
-  return `${config.public.apiBase}${props.product.attribute.Image.data.attributes.formats.medium.url}`;
+const imageUrl = computed(() => {
+  return `${config.public.apiBase}${props.product.attributes.Image.data.attributes.formats.medium.url}`;
 });
 </script>
