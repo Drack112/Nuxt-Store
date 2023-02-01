@@ -8,7 +8,9 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig();
+
 const { data: products } = await useFetch(
-  () => "http://127.0.0.1:1337/api/products"
+  () => config.public.apiBase + "/products"
 );
 </script>
