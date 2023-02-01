@@ -9,19 +9,10 @@
         If you want to know how this sick wicks site was built then look no
         further. There's a series of blog posts that you can find here
         <a
-          href="https://www.pixelhop.io/writing"
+          href="https://drack112.vercel.app"
           target="_blank"
           class="font-bold underline"
-          >https://www.pixelhop.io/writing</a
-        >.
-      </p>
-      <p class="pb-4 mx-auto text-center md:w-3/4 lg:w-1/2 text-brand-grey-400">
-        If you have any questions just drop us an email here
-        <a
-          href="mailto:info@pixelhop.io"
-          target="_blank"
-          class="font-bold underline"
-          >info@pixelhop.io</a
+          >https://drack112.vercel.app</a
         >.
       </p>
     </Container>
