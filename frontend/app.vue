@@ -6,6 +6,7 @@
 
 <script setup>
 useHead({
+  title: "Pick A Sick Wick",
   link: [
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     { rel: "preconnect", href: "https://fonts.gstatic.com" },
