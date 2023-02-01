@@ -1,6 +1,8 @@
 <template>
   <nav>
-    <ul class="flex flex-col items-center justify-center text-center gap-6">
+    <ul
+      class="flex flex-col items-center justify-center text-center gap-6 md:flex-row"
+    >
       <li
         class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-orange-600"
       >
