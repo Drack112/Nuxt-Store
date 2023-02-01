@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="fixed inset-0 z-50 flex items-center justify-center bg-brand-grey-300"
+    class="fixed inset-0 z-50 flex items-center justify-center bg-brand-beige-300"
   >
     <button
-      class="absolute p-1 right-4 text-brand-grey-800"
+      class="absolute p-1 right-4 top-8 text-brand-grey-800"
       title="Close"
       @click="$emit('close')"
     >
