@@ -6,6 +6,12 @@
   </div>
 </template>
 
+<style>
+body {
+  @apply text-brand-grey bg-brand-beige-300;
+}
+</style>
+
 <script setup>
 useHead({
   link: [
