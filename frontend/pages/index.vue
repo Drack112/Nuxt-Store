@@ -9,8 +9,8 @@
 
 <script setup>
 const config = useRuntimeConfig();
-
 const { data: products } = await useFetch(
-  () => config.public.apiBase + "/products"
+  () =>
+    `${config.public.apiBase}/products?pagination[start]=0&pagination[limit]=4&populate=*`
 );
 </script>
