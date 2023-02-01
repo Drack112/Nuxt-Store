@@ -33,22 +33,20 @@
   </header>
 </template>
 
-<style>
-header {
-  background: rgba(227, 217, 205, 0.9);
-}
+<script setup>
+const mobileMenuOpen = ref(false);
+</script>
 
+<style scoped>
+header {
+  background: rgba(227, 217, 205, 0.8);
+}
 .menu-enter-active,
 .menu-leave-active {
   transition: opacity 0.5s ease;
 }
-
 .menu-enter-from,
 .menu-leave-to {
   opacity: 0;
 }
 </style>
-
-<script setup>
-const mobileMenuOpen = ref(false);
-</script>
