@@ -1,15 +1,15 @@
 <template>
   <Title>Pick a Sick Wick - Candle Shop</Title>
-  <div>
-    <NuxtLayout name="default">
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
+  <NuxtPage />
 </template>
 
 <style>
 body {
   @apply text-brand-grey bg-brand-beige-300;
+}
+
+.snipcart-modal__container {
+  z-index: 100;
 }
 </style>
 
@@ -35,5 +35,12 @@ useHead({
       async: true,
     },
   ],
+});
+
+const router = useRouter();
+
+// Scroll to top after each navigation
+router.afterEach(() => {
+  window.scrollTo(0, 0);
 });
 </script>
