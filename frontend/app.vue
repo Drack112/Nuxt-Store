@@ -1,8 +1,9 @@
 <template>
   <Title>Pick a Sick Wick - Candle Shop</Title>
   <div>
-    <NuxtLayout name="default" />
-    <NuxtPage />
+    <NuxtLayout name="default">
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
