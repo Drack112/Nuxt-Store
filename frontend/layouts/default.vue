@@ -1,9 +1,10 @@
 <template>
   <div class="relative font-body">
     <HeaderSection />
-    <div class="pt-24 bg-brand-beige-300">
+    <section class="pt-24 bg-brand-beige-300">
       <slot />
-    </div>
+    </section>
+    <FooterSection />
   </div>
 </template>
 
