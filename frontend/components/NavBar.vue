@@ -1,27 +1,22 @@
 <template>
   <nav>
     <ul
-      class="flex flex-col items-center justify-center text-center gap-6 md:flex-row"
+      class="flex flex-col items-center justify-center gap-6 text-center md:flex-row"
     >
       <li
-        class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-orange-600"
+        class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-brand-orange"
       >
         <NuxtLink to="/">Home</NuxtLink>
       </li>
       <li
-        class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-orange-600"
+        class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-brand-orange"
       >
-        <NuxtLink to="/">Shop</NuxtLink>
+        <NuxtLink to="/shop">Shop</NuxtLink>
       </li>
       <li
-        class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-orange-600"
+        class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-brand-orange"
       >
-        <NuxtLink to="/">Contact</NuxtLink>
-      </li>
-      <li
-        class="text-xl font-bold tracking-tighter transition-colors text-brand-grey-800 font-heading hover:text-orange-600"
-      >
-        <NuxtLink to="/">GitHub</NuxtLink>
+        <NuxtLink to="/contact">Contact</NuxtLink>
       </li>
     </ul>
   </nav>
